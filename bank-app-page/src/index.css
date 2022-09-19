@@ -15,6 +15,17 @@
 * {
   scroll-behavior: smooth;
 }
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: #00040f;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #5ce1e6;
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #9dedf0;
+}
 
 .text-gradient {
   background: radial-gradient(
